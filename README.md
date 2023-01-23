@@ -85,9 +85,11 @@ var source = new EventSource('http://localhost:3000/countdown');
   source.onmessage = function(event) {
     console.log(event);
   };
+ ```
 
- OR Sockets
+ + OR Sockets
 
+```
 let socket = new WebSocket("wss://javascript.info/article/websocket/demo/hello");
 
 socket.onopen = function(e) {
