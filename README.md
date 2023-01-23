@@ -2,13 +2,13 @@
 ```
 Buildings want to offer a marketplace that offers community, college, and business specific
 items to sell to students. This marketplace will have the following features:
-● The ability to sell multiple different types of products that contain unique metadata useful
+- The ability to sell multiple different types of products that contain unique metadata useful
 to users, a list price, and an optional ability to keep track of stock
-● Users can use multiple different payment sources to pay for the items
-● For compliance purposes users must be able to retrieve a historical record of all invoices
-● The building needs to be able to run a series of reports summarizing activity around the
+- Users can use multiple different payment sources to pay for the items
+- For compliance purposes users must be able to retrieve a historical record of all invoices
+- The building needs to be able to run a series of reports summarizing activity around the
 inventory
-● inventory can be supplied from multiple vendors dynamically through 3rd party stores
+- inventory can be supplied from multiple vendors dynamically through 3rd party stores
 (i.e. Gopuff)
 ```
 
@@ -24,6 +24,7 @@ above. You can assume the API surface being called to retrieve the information i
 standard GraphQL API endpoint. Please denote any interesting cases you are
 considering when preparing the data for use and consumption on the page.
 
+```
 useFecth
 https://usehooks-ts.com/react-hook/use-fetch
 
@@ -46,6 +47,7 @@ export default function Component() {
   return <p>{data[0].title}</p>
 }
 
+```
 
 - 3. Write pseudo code to add live updates to pricing and inventory of assets for the
 Marketplace.
