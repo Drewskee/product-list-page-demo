@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "target": "es6",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "root/*": ["./src/*"],
+      "components/*": ["./components/*"],
+      "layout/*": ["./layout/*"],
+      "utils/*": ["./utils/*"],
+      "context/*": ["./context/*"],
+      "hooks/*": ["./hooks/*"]
+    },
+    "outDir": "../out-tsc/app",
+    "module": "commonjs",
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
